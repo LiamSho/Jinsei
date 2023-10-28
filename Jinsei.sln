@@ -11,9 +11,82 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{8739584F-1467-43B2-B9C2-19E3CAB37600}"
+	ProjectSection(SolutionItems) = preProject
+		src\Persistence\Directory.Build.props = src\Persistence\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BF5DEA34-D2AA-4A14-8F61-FB811C21F08E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Domain\Directory.Build.props = src\Domain\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Domain", "src\Domain\Jinsei.Domain\Jinsei.Domain.csproj", "{071123E3-B092-4654-A9CF-37C4A42D8F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Persistence.Abstractions", "src\Persistence\Jinsei.Persistence.Abstractions\Jinsei.Persistence.Abstractions.csproj", "{C40894FE-AAF3-450A-9E98-A88676707699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Persistence.Database", "src\Persistence\Jinsei.Persistence.Database\Jinsei.Persistence.Database.csproj", "{FF13DDF9-4616-40A9-8A59-A5ED12356768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Application.Common", "src\Application\Jinsei.Application.Common\Jinsei.Application.Common.csproj", "{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{49C97EA8-4FC8-4479-828B-2598A9011C38}"
+	ProjectSection(SolutionItems) = preProject
+		src\Application\Directory.Build.props = src\Application\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F6C12ECA-AEF6-4A49-8D65-D746E374D8CF}"
+	ProjectSection(SolutionItems) = preProject
+		src\Presentation\Directory.Build.props = src\Presentation\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Presentation.Common", "src\Presentation\Jinsei.Presentation.Common\Jinsei.Presentation.Common.csproj", "{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Presentation.Api", "src\Presentation\Jinsei.Presentation.Api\Jinsei.Presentation.Api.csproj", "{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Application", "src\Application\Jinsei.Application\Jinsei.Application.csproj", "{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{071123E3-B092-4654-A9CF-37C4A42D8F2C} = {BF5DEA34-D2AA-4A14-8F61-FB811C21F08E}
+		{C40894FE-AAF3-450A-9E98-A88676707699} = {8739584F-1467-43B2-B9C2-19E3CAB37600}
+		{FF13DDF9-4616-40A9-8A59-A5ED12356768} = {8739584F-1467-43B2-B9C2-19E3CAB37600}
+		{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941} = {49C97EA8-4FC8-4479-828B-2598A9011C38}
+		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5} = {F6C12ECA-AEF6-4A49-8D65-D746E374D8CF}
+		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1} = {F6C12ECA-AEF6-4A49-8D65-D746E374D8CF}
+		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D} = {49C97EA8-4FC8-4479-828B-2598A9011C38}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071123E3-B092-4654-A9CF-37C4A42D8F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071123E3-B092-4654-A9CF-37C4A42D8F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071123E3-B092-4654-A9CF-37C4A42D8F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071123E3-B092-4654-A9CF-37C4A42D8F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40894FE-AAF3-450A-9E98-A88676707699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40894FE-AAF3-450A-9E98-A88676707699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40894FE-AAF3-450A-9E98-A88676707699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40894FE-AAF3-450A-9E98-A88676707699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF13DDF9-4616-40A9-8A59-A5ED12356768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF13DDF9-4616-40A9-8A59-A5ED12356768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF13DDF9-4616-40A9-8A59-A5ED12356768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF13DDF9-4616-40A9-8A59-A5ED12356768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E7B2C1-0D92-4FA1-A0BF-A7B05E19A941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

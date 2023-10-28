@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\Jinsei.Application.Common\Jinsei.Application.Common.csproj" />
+    </ItemGroup>
+
+</Project>
