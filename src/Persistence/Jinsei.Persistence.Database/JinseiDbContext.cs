@@ -1,4 +1,4 @@
-﻿using Jinsei.Domain.Options;
+﻿using Jinsei.Common.Options;
 using Jinsei.Persistence.Abstractions;
 using Jinsei.Persistence.Abstractions.Enums;
 using Jinsei.Persistence.Abstractions.Options;

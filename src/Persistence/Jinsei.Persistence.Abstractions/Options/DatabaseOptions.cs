@@ -1,10 +1,12 @@
-﻿using Jinsei.Persistence.Abstractions.Enums;
+﻿using Jinsei.Common.Attributes;
+using Jinsei.Persistence.Abstractions.Enums;
 
 namespace Jinsei.Persistence.Abstractions.Options;
 
 /// <summary>
 ///     Database connection options.
 /// </summary>
+[OptionName("Database")]
 public sealed record DatabaseOptions
 {
     /// <summary>

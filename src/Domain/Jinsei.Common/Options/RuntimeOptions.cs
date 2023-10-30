@@ -1,8 +1,11 @@
-﻿namespace Jinsei.Domain.Options;
+﻿using Jinsei.Common.Attributes;
+
+namespace Jinsei.Common.Options;
 
 /// <summary>
 ///     The runtime options.
 /// </summary>
+[OptionName("Runtime")]
 public sealed record RuntimeOptions
 {
     /// <summary>

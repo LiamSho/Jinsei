@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Presentation.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Application", "src\Application\Jinsei.Application\Jinsei.Application.csproj", "{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinsei.Common", "src\Domain\Jinsei.Common\Jinsei.Common.csproj", "{319ACA7A-B80C-461E-B162-3C257BD9D81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,7 @@ Global
 		{EEBC79B5-9909-4437-BFF8-8010EAB5D4F5} = {F6C12ECA-AEF6-4A49-8D65-D746E374D8CF}
 		{091EC7EE-7C68-42FC-85D1-36FBD47A2DB1} = {F6C12ECA-AEF6-4A49-8D65-D746E374D8CF}
 		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D} = {49C97EA8-4FC8-4479-828B-2598A9011C38}
+		{319ACA7A-B80C-461E-B162-3C257BD9D81A} = {BF5DEA34-D2AA-4A14-8F61-FB811C21F08E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{071123E3-B092-4654-A9CF-37C4A42D8F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -88,5 +91,9 @@ Global
 		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF88F86-6B75-4D31-9E8D-0D9AFE406E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319ACA7A-B80C-461E-B162-3C257BD9D81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319ACA7A-B80C-461E-B162-3C257BD9D81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319ACA7A-B80C-461E-B162-3C257BD9D81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319ACA7A-B80C-461E-B162-3C257BD9D81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

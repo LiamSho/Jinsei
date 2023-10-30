@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\Jinsei.Domain\Jinsei.Domain.csproj" />
+    <ProjectReference Include="..\..\Domain\Jinsei.Common\Jinsei.Common.csproj" />
   </ItemGroup>
     
   <ItemGroup>
